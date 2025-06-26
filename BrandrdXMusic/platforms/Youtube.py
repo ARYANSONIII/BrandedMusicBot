@@ -8,12 +8,12 @@ from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from youtubesearchpython.__future__ import VideosSearch
 
-from ANNIEMUSIC.utils.database import is_on_off
-from ANNIEMUSIC.utils.downloader import yt_dlp_download, download_audio_concurrent
-from ANNIEMUSIC.utils.errors import capture_internal_err
-from ANNIEMUSIC.utils.formatters import time_to_seconds
+from BrandrdXMusic.utils.database import is_on_off
+from BrandrdXMusic.utils.downloader import yt_dlp_download, download_audio_concurrent
+from BrandrdXMusic.utils.errors import capture_internal_err
+from BrandrdXMusic.utils.formatters import time_to_seconds
 
-cookies_file = "ANNIEMUSIC/assets/cookies.txt"
+cookies_file = "BrandrdXMusic/assets/cookies.txt"
 _cache = {}
 
 
